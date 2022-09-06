@@ -1,12 +1,13 @@
 package model;
 
-public class Friend extends Contact{
+public class Friend extends Contact {
 
     private String nickName;
 
-    public Friend() {
-        super();
+    public Friend(String nameOfContacts, String phoneNumber, String nickName) {
         this.nickName = nickName;
+        this.nameOfContacts = nameOfContacts;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getNickName() {

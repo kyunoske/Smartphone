@@ -2,8 +2,8 @@ package model;
 
 public interface Radio {
 
-    public String startRadio();
+    public boolean startRadio();
 
-    public String stopRadio();
+    public boolean stopRadio();
 
 }
