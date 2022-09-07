@@ -4,9 +4,9 @@ public class Friend extends Contact {
 
     private String nickName;
 
-    public Friend(String nameOfContacts, String phoneNumber, String nickName) {
+    public Friend(String nameOfContact, String phoneNumber, String nickName) {
         this.nickName = nickName;
-        this.nameOfContacts = nameOfContacts;
+        this.nameOfContact = nameOfContact;
         this.phoneNumber = phoneNumber;
     }
 
@@ -24,7 +24,7 @@ public class Friend extends Contact {
     public String toString() {
         return "Friend{" +
                 "nickName='" + nickName + '\'' +
-                ", nameOfContacts='" + nameOfContacts + '\'' +
+                ", nameOfContacts='" + nameOfContact + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
