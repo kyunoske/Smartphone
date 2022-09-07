@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834dbb1d-e052-4ec3-b7cb-f65f003d623a" name="Changes" comment="add FriedTest">
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Radio.java" afterDir="false" />
+    <list default="true" id="834dbb1d-e052-4ec3-b7cb-f65f003d623a" name="Changes" comment="add smartphoneTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/SmartphoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,26 +51,10 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmartphoneTest.getPosition">
+  <component name="RunManager" selected="JUnit.SmartphoneTest.getSmartphoneString">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Smartphone" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FriendTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Smartphone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.FriendTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +70,22 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.SmartphoneTest" />
       <option name="METHOD_NAME" value="getPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.getSmartphoneString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smartphone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.SmartphoneTest" />
+      <option name="METHOD_NAME" value="getSmartphoneString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmartphoneTest.getSmartphoneString" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SmartphoneTest.getPosition" />
         <item itemvalue="JUnit.SmartphoneTest.stopRadio" />
         <item itemvalue="JUnit.SmartphoneTest.startRadio" />
-        <item itemvalue="JUnit.FriendTest.testToString" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662538556284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add smartphoneTest">
+      <created>1662539989549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662539989549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +196,7 @@
     <MESSAGE value="add radioStatus and gps" />
     <MESSAGE value="change nameOfContacts to nameOfContact" />
     <MESSAGE value="add FriedTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FriedTest" />
+    <MESSAGE value="add smartphoneTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add smartphoneTest" />
   </component>
 </project>

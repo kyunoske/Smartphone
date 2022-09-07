@@ -65,4 +65,24 @@ class SmartphoneTest {
         //Then
         assertEquals("Koln", actual);
     }
+
+    @Test
+    void getSmartphoneString() {
+        //Given
+        Friend contact1 = new Friend("Jim", "12345679", "Happy");
+        Friend contact2 = new Friend("Jimmmy", "123456790", "Sad");
+        Friend contact3 = new Friend("Jimmmy Boy", "123456791", "Cheerful");
+        Friend contact4 = new Friend("Jimmmy Boy Wonder", "123456792", "Suprised");
+
+        Friend[] contacts = {contact1, contact2, contact3, contact4};
+
+        Smartphone smartphone = new Smartphone("x", "y", contacts);
+
+        //When
+        String actual = smartphone.toString();
+
+        //Then
+        assertEquals(smartphone.toString(), actual);
+    }
+
 }
