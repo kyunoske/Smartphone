@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834dbb1d-e052-4ec3-b7cb-f65f003d623a" name="Changes" comment="change nameOfContacts to nameOfContact">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/FriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/FriendTest.java" afterDir="false" />
+    <list default="true" id="834dbb1d-e052-4ec3-b7cb-f65f003d623a" name="Changes" comment="add FriedTest">
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/SmartphoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FriendTest.testToString">
+  <component name="RunManager" selected="JUnit.SmartphoneTest.getPosition">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Smartphone" />
@@ -77,8 +75,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmartphoneTest.getPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smartphone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.SmartphoneTest" />
+      <option name="METHOD_NAME" value="getPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.startRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smartphone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.SmartphoneTest" />
+      <option name="METHOD_NAME" value="startRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.stopRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Smartphone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.SmartphoneTest" />
+      <option name="METHOD_NAME" value="stopRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmartphoneTest.getPosition" />
+        <item itemvalue="JUnit.SmartphoneTest.stopRadio" />
+        <item itemvalue="JUnit.SmartphoneTest.startRadio" />
         <item itemvalue="JUnit.FriendTest.testToString" />
         <item itemvalue="Application.Main" />
       </list>
@@ -114,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662537633127</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add FriedTest">
+      <created>1662538556284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662538556284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +188,7 @@
     <MESSAGE value="add main method, Smartphone.java, Radio.java" />
     <MESSAGE value="add radioStatus and gps" />
     <MESSAGE value="change nameOfContacts to nameOfContact" />
-    <option name="LAST_COMMIT_MESSAGE" value="change nameOfContacts to nameOfContact" />
+    <MESSAGE value="add FriedTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FriedTest" />
   </component>
 </project>
