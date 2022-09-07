@@ -16,5 +16,8 @@ public class Main {
 
         Smartphone phoneX = new Smartphone("x839+ Mega Ultra Best", "Some Company", contacts);
         System.out.println(phoneX);
+        System.out.println(phoneX.radioStatusOn());
+        System.out.println(phoneX.radioStatusOff());
+
     }
 }

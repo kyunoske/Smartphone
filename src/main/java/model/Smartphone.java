@@ -56,6 +56,28 @@ public class Smartphone implements Radio, getPosition {
         return "Koln";
     }
 
+    public String radioStatusOn() {
+        boolean radioOn = startRadio();
+        String gps = getPosition();
+
+        if (radioOn) {
+            return "radio started and your location is in " + gps;
+        } else {
+            return "radio stopped and your location is in " + gps;
+        }
+    }
+
+    public String radioStatusOff() {
+        boolean radioOff = stopRadio();
+        String gps = getPosition();
+
+        if (radioOff) {
+            return "radio stopped and your location is in " + gps;
+        } else {
+            return "radio started and your location is in " + gps;
+        }
+    }
+
     @Override
     public String toString() {
         return "Smartphone{" +
