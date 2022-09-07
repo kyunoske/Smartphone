@@ -78,6 +78,11 @@ public class Smartphone implements Radio, getPosition {
         }
     }
 
+    public String gpsLocation() {
+        String gps = getPosition();
+        return gps;
+    }
+
     @Override
     public String toString() {
         return "Smartphone{" +

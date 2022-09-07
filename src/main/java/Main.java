@@ -18,6 +18,6 @@ public class Main {
         System.out.println(phoneX);
         System.out.println(phoneX.radioStatusOn());
         System.out.println(phoneX.radioStatusOff());
-
+        System.out.println(phoneX.gpsLocation());
     }
 }
